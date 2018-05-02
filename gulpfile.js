@@ -38,7 +38,6 @@ gulp.task('style', function () {
       .pipe(autoprefixer())
       .pipe(sourcemaps.write('.'))
       .pipe(gulp.dest('./dist/css'))
-    //   .pipe(reload({stream: true}))
   });
 
   // Watch Sass 
